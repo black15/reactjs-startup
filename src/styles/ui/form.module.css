@@ -1,0 +1,37 @@
+.container form{
+	width: auto;
+	margin: 0 auto;
+	padding: 10px;
+}
+.container .inputblock {
+	margin: 25px auto;
+	width: 600px;
+
+}
+.container label {
+	width: 100%;
+	font-size: 18px;
+	display: block;
+
+}
+.container input[type=text], .container input[type=url] {
+	width: 100%;
+	display: block;
+	border: none;
+	outline: none;
+	background-color: #eee;
+	padding: 10px 5px;
+	font-size: 18px;
+}
+.container input[type=submit] {
+	border: none;
+	outline: none;
+	background-color: #34B5DC;
+	padding: 5px 10px;
+	cursor: pointer;
+	display: block;
+	margin: 20px auto;
+	font-size: 18px;
+	border-radius: 4px;
+	color: #f8f8f8;
+}

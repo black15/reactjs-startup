@@ -1,0 +1,25 @@
+.container {
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+	position: absolute;
+	top: 50px;
+	left: 40%;
+	width: 300px;
+}
+
+.container .card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	margin: 3px;
+}
+.container .card img {
+	height: 70px;
+	width:  70px;
+	border-radius: 50%;
+}
+.container .card span {
+	color: #333;
+	font-weight: 500;
+}
